@@ -33,10 +33,10 @@ function devicecordova(){
     var string = device.platform; // affiche la plateforme
     var string1 = device.uuid; // affiche l'UUID
     var string2 = device.version; // affiche la version de la plateforme
-  //  var string3 = navigator.globalization;    Marche pas 
+  //  var string3 = navigator.globalization;  langue   Marche pas 
 
     alert ('Model :'+ model+'\n'+'Platforme :'+'\n'+ string+' '+string2+'\n'+'UUID :'+ string1);
-    alert(string3);
+   // alert(string3);
 
 }
 

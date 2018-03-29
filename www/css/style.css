@@ -150,7 +150,6 @@ footer {
 	width:100%;
 }
 
-
 /*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMEDIA QUERIESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 
 @media(-webkit-min-device-pixel-ratio:2 ){
@@ -208,6 +207,13 @@ footer {
  	margin-top: 50%;
 
  }
+ /*------------------PAGE SUITE DU TP-------------------*/
+#pagecontact{
+    text-decoration: underline;
+    size: 25px;
+    margin-top: 10px;
+    color: Silver;
+}
 }
 
 @media only screen and (min-device-width : 650px) and (max-device-width : 1024px){
@@ -236,4 +242,13 @@ header nav{
  #message{ 
     width: 88%;
  }
+
+ /*------------------PAGE SUITE DU TP-------------------*/
+#pagecontact {
+    text-decoration: underline;
+    size: 25px;
+    margin-top: 10px;
+    color: yellow ;
+    background-color: green;
+}
 }
