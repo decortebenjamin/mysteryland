@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Benjamin\\Desktop\\IUT\\tp3\\tp3tier\\mysteryland\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\Benjamin\\Desktop\\IUT\\tp3\\tp3tier\\mysteryland\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Benjamin\\Desktop\\IUT\\tp3\\tp3tier\\mysteryland\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\Benjamin\\Desktop\\IUT\\tp3\\tp3tier\\mysteryland\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    }
+]

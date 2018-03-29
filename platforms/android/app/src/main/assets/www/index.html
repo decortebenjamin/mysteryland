@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+	<title>Mysteryland 2018</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js">
+    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+	<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<!--	<link rel="manifest" href="/manifest.json"> 
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">-->
+</head>
+<body>
+    <header>
+		<img src="images/mysteryland.png" width="25%"  alt="logo" />
+        <nav>
+           <a href="#">Accueil</a>
+           <a href="#">Line Up 2018</a>
+           <a href="#">Qui sommes nous ?</a>
+           <a href="#">Contact</a>
+           <input type="search"  placeholder="Rechercher" />        
+        </nav>
+
+  
+	</header>
+
+
+
+    <div id="gif"> 
+	<img src="images/mlgif.gif">
+	</div>
+
+
+
+ <div id="text"> 
+		<h1> Bienvenue sur le site de réservation du Mysteryland </h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis enim pharetra, vestibulum lacus a, dapibus lacus. Nullam consectetur ultrices vehicula. Praesent cursus justo auctor tincidunt semper. Pellentesque varius finibus justo sit amet ornare. Morbi ullamcorper aliquet tempor. Donec tortor ex, tristique vel dolor vitae, volutpat vestibulum velit. Nullam tempus sapien nec ullamcorper mattis. Proin vitae lacinia arcu, id faucibus urna. Sed et pharetra leo, vel pretium sem. Phasellus egestas sodales sapien, sit amet tristique.</p>
+
+	</div>
+    
+    <div id="galerie">
+        <ul>
+            <li>
+                <h2>À savoir</h2><img src="images/voyage.jpg"  alt=""><p>Voici les informations à savoir avant de réserver le voyage..</p><a href="#">En savoir plus..</a>
+            </li>
+            <li>
+                <h2>Aftermovie 2017</h2><img src="images/aaaa.png"  alt=""><p>Revivez le Mysteryland 2017</p><a href="#">En savoir plus..</a>
+            </li>
+            <li>
+                <h2>Show spécial 25 ans</h2><img src="images/25ans.jpg" alt=""><p>Pour l'édition des 25 ans du Mysteryland, ID&T on prévu un grand show ..</p><a href="#">En savoir plus..</a>
+            </li>
+            <li>
+               <h2>Line up 2018</h2><img src="images/stage.jpg" alt=""><p>Découvrez le line up complet et les headliners..</p><a href="#">En savoir plus..</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="contenu">
+        <div id="map">
+            <h2>Lieu du festival</h2>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1O-xEmXjXKRSzSaDcmHv9iESp9-8&hl=en_US" width="640" height="480"></iframe>
+        </div>
+        <div id="formulaire">
+            <h2> Formulaire d'inscription</h2>
+            <input type="text" id="prenom" class="bidon" name="prenom" placeholder="Prénom"/>
+            <input type="text" id="nom" class="nom" name="nom" placeholder="Nom"/>
+            <input type="date" id="naissance" class="bidon" name="naissance"/>
+            <input type="text" id="lieu" name="lieu" class="bidon" placeholder="Lieu de naissance"/>
+            <input type="email" id="email" name="email" placeholder="Email"/>
+            <input type="file" id="photo" name="photo">
+            <textarea name="message" id="message" placeholder="Message" rows="8" cols="30"></textarea> 
+            <input type="button" id="envoyer" name="envoyer" value="Envoyer">
+        </div>
+    </div>
+    
+  <footer>
+		<p>Benjamin Decorte TPC</p>
+		<p>Réalisé dans le cadre du module M4105</p>
+
+
+	</footer>
+</body>
+</html>

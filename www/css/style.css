@@ -1,0 +1,239 @@
+/*@font-face
+{
+    font-family: taFont;
+    src: url(fonts/taFont.ttf);
+}
+ 
+p
+{
+   font-family: taFont;
+}
+
+*/
+*{
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+font-size: 13px;
+
+}
+/**-----------------------------------------*/
+
+
+nav a{
+	color: White;
+}
+
+nav { 
+display : inline;
+padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+}
+nav{
+list-style-type : none; 
+}
+header {
+	/*background-color: #009989;*/
+	/*margin: 5px;*/
+
+}
+header nav {
+	float: right;
+		margin-right: 5% 
+}
+#logo {
+	width: 50%;
+	height: 50%
+}
+#gif{ 
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	text-align: center;
+	width: 100%;
+}
+
+body{
+	margin: 0%;
+	padding: 0%;
+/*	background-color:lightblue;	*/
+	/*background-image: linear-gradient(seagreen,darkcyan);*/
+	background-image: linear-gradient(to bottom, #009540 0%,#04baee 50%,#004080 100%);
+
+}
+
+/*wwwwwwwwwwwwwwwwwwwwwww 4 images wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+
+
+#galerie {
+    margin-left: auto;
+    margin-right: auto;
+}
+#galerie ul{
+    padding-left:0;
+}
+#galerie ul li{ 
+    list-style-type: none;
+    display: inline-block;
+    width:24%;
+    text-align: center;
+    padding-top: 1.8rem;
+    vertical-align: top;	
+}
+#galerie ul li img{
+    width: 12rem; 
+}
+#galerie a {
+    text-decoration: none;
+}
+
+
+/*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+#contenu {
+    display: inline-block;
+    width: 100%;
+}
+#map {
+    width:49%;
+    display: inline-block;
+}
+#map h2{
+	margin-left: 15px;
+
+}
+#map iframe{
+    width: 75%;
+    margin-bottom: 2.5rem;
+    margin-left: 5rem;
+}
+
+
+/*----------------------form ------------------------*/
+#formulaire {
+    float:right; 
+    height: 100%;
+    width: 33%;
+    padding-right: 13%;
+}
+#formulaire input {
+    margin: 1rem;
+    box-sizing: border-box;
+}      
+#email{
+    width: 70%;
+}
+#photo{
+    display: block;
+}
+.nom{
+    width:40%;
+}
+#envoyer{
+    margin-left: 80%;
+}
+#message {
+    display: block;
+    margin: 1rem;
+    width: 70%;
+} 
+#photo{
+    width: 100%;
+}
+/*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwFOOTERwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+
+footer p{
+	text-align: right;
+	margin-right: 2%;
+
+	
+
+}
+footer {
+	border-top: solid; 
+	color: Silver;
+	width:100%;
+}
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMEDIA QUERIESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+@media(-webkit-min-device-pixel-ratio:2 ){
+} 
+
+@media only screen and (max-device-width : 640px){
+ header{
+    position:initial;
+ }
+
+ header nav{
+     display: none;
+ }
+ header img{
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+ }
+ header input{
+    display: none;
+ }
+ #gif img{
+    padding-top: 0;
+    width:80%;
+ }
+
+ #galerie ul li{ 
+    display: block;
+    width: 100%;
+}	
+ #contenu {
+    display: block;
+    height: 75rem;
+ }
+ #map{
+    width: 100%;
+ }
+ #map iframe{
+    margin-left: 2.5rem;
+    margin-bottom: 0rem;
+}
+ #formulaire{
+    width: 100%;
+    padding-right: 0%;
+    height: 50%;
+ }
+ #formulaire input{
+    width: 90%;
+ }
+ #message{ 
+    width: 88%;
+ }
+
+ footer{
+ 	margin-top: 50%;
+
+ }
+}
+
+@media only screen and (min-device-width : 650px) and (max-device-width : 1024px){
+ /*****IPAD******/
+ header img{
+    display: block;
+    width: 100%;
+}
+header nav{
+  /*  margin-top: 1rem;
+    font-size: 2rem;
+  	margin-left: auto;
+    margin-right: auto;
+  /*  float: none;
+  clear: both;*/
+  width: 100%*/
+}
+
+#galerie ul li{
+	display: inline-block;
+    width: 49%;
+}
+#formulaire input{
+    width: 90%;
+ }
+ #message{ 
+    width: 88%;
+ }
+}
